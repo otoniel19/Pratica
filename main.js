@@ -3,7 +3,7 @@ var nome = String(prompt("Ola Qual Seu Nome?"))
 if(nome.length === 0) {
   alert("Ola Anônimo(a)")
 } else {
-  alert(`Ola ${nome}`)
+  alert(`Ola: ${nome}`)
 }
 
 var dia_atual = new Date().getDate()
